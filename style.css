@@ -110,11 +110,11 @@ STYLING FOR THE BACKGROUND IMAGE
     position: absolute;
     font-size: 6vh;
     left: 18vw;
-    top: 20%;
+    top: 19%;
     font-size: 4vw;
   }
   .anewtvexp .exp {
-    left: 17%;
+    left: 16%;
     color: white;
     top: 20%;
     position: absolute;
@@ -124,7 +124,7 @@ STYLING FOR THE BACKGROUND IMAGE
   .anewtvexp .awa {
     color: white;
     position: absolute;
-    top: 24%;
+    top: 25%;
     left: 18vw;
     font-size: 4vw;
   }
@@ -217,7 +217,7 @@ STYLING FOR TV
     background-color: #313636;
   }
   .subimages .tv img.tvimg {
-    width: 26vh;
+    width: 23vh;
     height: 26vh;
     left: 2vh;
     position: relative;
@@ -229,7 +229,7 @@ STYLING FOR TV
     font-size: 4vw;
     position: absolute;
     top: 56vh;
-    left: 30vh;
+    left: 29vh;
     overflow: scroll;
   }
   .subimages .tv h3 {
@@ -597,9 +597,9 @@ p.shop {
   color: white;
   height: 8vh;
   font-size: 3vh;
-  width: 34vw;
+  width: 17vw;
   position: absolute;
-  right: 7%;
+  right: 14%;
   top: 1vh;
   border-radius: 6px;
   border: none;
@@ -675,7 +675,7 @@ p.shop {
     top: 33%;
     font-weight: 500;
   }
-  .footer .total .checkcart a {
+  .footer .total a .checkcart {
     background-color: rgb(62, 175, 33);
     color: white;
     height: 8vh;
@@ -796,6 +796,7 @@ p.shop {
   left: 30%;
   top: 27%;
   font-weight: 100;
+  font-family: roboto, "Helvetica Neue";
 }
 .ordercontain .shiphead h1 {
   color: white;
