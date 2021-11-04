@@ -513,7 +513,7 @@ p.shop {
   top: 26%;
   font-weight: 500;
 }
-.footer .total .checkcart {
+.footer .total a .checkcart {
   background-color: rgb(62, 175, 33);
   color: white;
   height: 8vh;
@@ -593,7 +593,7 @@ p.shop {
     top: 33%;
     font-weight: 500;
   }
-  .footer .total .checkcart {
+  .footer .total a .checkcart {
     background-color: rgb(62, 175, 33);
     color: white;
     height: 7vh;
@@ -770,12 +770,13 @@ p.shopp {
   margin-top: 0px;
   font-family: system-ui;
 }
-h2.cancelbtn {
+h2.cancelbtn a {
   color: white;
   position: absolute;
   left: 90%;
   top: 3%;
   font-family: system-ui;
+  text-decoration: none;
 }
 a {
   color: white;
@@ -960,12 +961,13 @@ p.shop {
     margin-top: 0px;
     font-family: system-ui;
   }
-  h2.cancelbtn {
+  h2.cancelbtn a {
     color: white;
     position: absolute;
     left: 90%;
     top: 3%;
     font-family: system-ui;
+    text-decoration: none;
   }
   a {
     color: white;
