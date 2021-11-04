@@ -467,13 +467,14 @@ p.shop {
   font-size: 2vw;
   top: 2%;
 }
-.sign p.sig {
+.sign p.sig a {
   color: #e4e4e4;
   position: absolute;
   left: 80%;
   top: 3%;
   font-size: 3vh;
   font-family: system-ui;
+  text-decoration: none;
 }
 .navbar .nav-footer {
   position: absolute;
@@ -547,13 +548,14 @@ p.shop {
     font-size: 4vw;
     top: 5%;
   }
-  .sign p.sig {
+  .sign p.sig a {
     color: #e4e4e4;
     position: absolute;
     left: 61%;
     top: 3%;
     font-size: 4vh;
     font-family: system-ui;
+    text-decoration: none;
   }
   .navbar .nav-footer {
     position: absolute;
