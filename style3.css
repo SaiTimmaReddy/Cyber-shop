@@ -16,15 +16,15 @@ img {
 }
 
 /*************
-STYLING FOR THE BACKGROUND IMAGE
-*************/
+    STYLING FOR THE BACKGROUND IMAGE
+    *************/
 
 /* img.anewtvexp {
-  width: 29%;
-  position: absolute;
-  top: 24%;
-  left: 14%;
-} */
+      width: 29%;
+      position: absolute;
+      top: 24%;
+      left: 14%;
+    } */
 
 .anewtvexp .anewtv {
   color: white;
@@ -34,12 +34,11 @@ STYLING FOR THE BACKGROUND IMAGE
   top: 27%;
   font-size: 4vw;
   font-family: roboto, "Helvetica Neue";
-  word-spacing: 5px;
 }
-.anewtvexp .exp {
-  left: 18%;
+.anewtvexp h1.exp {
+  left: 16%;
   color: white;
-  top: 18%;
+  top: 20%;
   position: absolute;
   top: 33%;
   font-size: 4vw;
@@ -82,92 +81,32 @@ STYLING FOR THE BACKGROUND IMAGE
   font-family: roboto, "Helvetica Neue";
 }
 /* @media screen and (max-width: 400px) {
-  img.anewtvexp {
-    width: 29%;
-    height: 30vh;
-    left: 13%;
-    position: absolute;
-    top: 32%;
-  }
-  img.sony {
-    width: 10%;
-    position: absolute;
-    left: 47%;
-    top: 12%;
-    height: 27vh;
-  }
-  img {
-    width: 100%;
-    height: 20vh;
-    top: 75px;
-    left: 0%;
-    position: relative;
-  }
-} */
-@media only screen and (max-width: 800px) {
-  .anewtvexp .anewtv {
-    color: white;
-    position: absolute;
-    font-size: 6vh;
-    left: 18vw;
-    top: 20%;
-    font-size: 4vw;
-  }
-  .anewtvexp .exp {
-    left: 17%;
-    color: white;
-    top: 20%;
-    position: absolute;
-    top: 20%;
-    font-size: 4vw;
-  }
-  .anewtvexp .awa {
-    color: white;
-    position: absolute;
-    top: 25%;
-    left: 18vw;
-    font-size: 4vw;
-  }
-  .sony h2 {
-    width: 12%;
-    position: absolute;
-    left: 47%;
-    top: 15%;
-    height: 26vh;
-    color: white;
-    font-size: 5vw;
-  }
-  img {
-    width: 100%;
-    height: 20vh;
-    top: 75px;
-    left: 0%;
-    position: relative;
-    height: 35vh;
-  }
-  .bravo h2 {
-    position: absolute;
-    color: #e4e4e4;
-    left: 22%;
-    top: 25;
-    top: 29%;
-    font-size: 100;
-    font-size: 3vw;
-    font-weight: 100;
-  }
-  .bravo h3 {
-    color: #e4e4e4;
-    position: absolute;
-    font-size: 2vw;
-    font-weight: lighter;
-    top: 31%;
-    left: 24%;
-  }
-}
+      img.anewtvexp {
+        width: 29%;
+        height: 30vh;
+        left: 13%;
+        position: absolute;
+        top: 32%;
+      }
+      img.sony {
+        width: 10%;
+        position: absolute;
+        left: 47%;
+        top: 12%;
+        height: 27vh;
+      }
+      img {
+        width: 100%;
+        height: 20vh;
+        top: 75px;
+        left: 0%;
+        position: relative;
+      }
+    } */
 
 /************
-STYLING FOR TV
-************/
+    STYLING FOR TV
+    ************/
 .tv {
   background-color: #313636;
 }
@@ -195,8 +134,8 @@ STYLING FOR TV
   font-weight: 100;
 }
 /* .subimages .tv {
-  width: 100%;
-} */
+      width: 100%;
+    } */
 .subimages .tv .btn {
   background-color: rgb(62, 175, 33);
   width: 6%;
@@ -208,7 +147,6 @@ STYLING FOR TV
 
   top: 134vh;
   color: white;
-  border: none;
 }
 @media only screen and (max-width: 800px) {
   .tv {
@@ -239,8 +177,8 @@ STYLING FOR TV
     font-size: 3vh;
   }
   /* .subimages .tv {
-        width: 100%;
-      } */
+            width: 100%;
+          } */
   .subimages .tv .btn {
     width: 20%;
     border-radius: 4px;
@@ -250,13 +188,12 @@ STYLING FOR TV
     right: 2vh;
     top: 75vh;
     color: white;
-    border: none;
   }
 }
 
 /**** 
-STYLING FOR THE FRIDGE
-*****/
+    STYLING FOR THE FRIDGE
+    *****/
 
 .subimages .phone img.mob {
   height: 20%;
@@ -295,7 +232,6 @@ STYLING FOR THE FRIDGE
 
   top: 178vh;
   color: white;
-  border: none;
 }
 
 @media only screen and (max-width: 800px) {
@@ -337,13 +273,12 @@ STYLING FOR THE FRIDGE
     right: 2vh;
     top: 121vh;
     color: white;
-    border: none;
   }
 }
 
 /***********
-STYLING FOR THE PHONE
-***********/
+    STYLING FOR THE PHONE
+    ***********/
 
 .subimages .fridge img.refredige {
   height: 20%;
@@ -384,7 +319,6 @@ STYLING FOR THE PHONE
   color: white;
   /* letter-spacing: 1%; */
   letter-spacing: 5px;
-  border: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -427,13 +361,12 @@ STYLING FOR THE PHONE
     color: white;
     letter-spacing: 4px;
     initial-letter-align: 1px;
-    border: none;
   }
 }
 
 /*************
-STYLING FOR OVEN 
-*************/
+    STYLING FOR OVEN 
+    *************/
 
 .subimages .microoven img.ove {
   height: 20%;
@@ -472,7 +405,6 @@ STYLING FOR OVEN
   right: 30vh;
   top: 268vh;
   color: white;
-  border: none;
 }
 @media only screen and (max-width: 800px) {
   .subimages .microoven img.ove {
@@ -512,7 +444,6 @@ STYLING FOR OVEN
     right: 2vh;
     top: 214vh;
     color: white;
-    border: none;
   }
 }
 .navbar .cartpic img.cartt {
@@ -521,12 +452,12 @@ STYLING FOR OVEN
   top: 3%;
   left: 86%;
 }
-.Cyber p {
+p.cyb {
   left: 5%;
   font-family: system-ui;
   position: absolute;
   font-size: 3vw;
-  top: 3%;
+  top: 0%;
   color: #49cb28;
 }
 p.shop {
@@ -534,13 +465,13 @@ p.shop {
   position: absolute;
   left: 13%;
   font-size: 2vw;
-  top: 5%;
+  top: 2%;
 }
 .sign p.sig {
   color: #e4e4e4;
   position: absolute;
   left: 80%;
-  top: 4%;
+  top: 3%;
   font-size: 3vh;
   font-family: system-ui;
 }
@@ -601,7 +532,7 @@ p.shop {
     left: 83%;
     height: 6%;
   }
-  .Cyber p {
+  p.cyb {
     left: 5%;
     font-family: system-ui;
     position: absolute;
@@ -765,645 +696,293 @@ p.shop {
   }
 }
 
-/***** cart page 
-********/
+.trans {
+  background-color: rgba(247, 245, 245);
+  opacity: 0.3;
+}
 
-.orderitms {
+.login-box {
+  width: 29%;
+  height: 50%;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+  position: fixed;
+  top: 20%;
+  left: 34%;
+  background-color: #495050;
+}
+
+form {
+  width: 300px;
+  margin-left: 13%;
+  padding-top: 3%;
+}
+input {
   width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1 px solid gray;
+  border-radius: 2px;
+  outline: none;
+  margin-top: 17px;
+  text-align: center;
+  font-size: 20px;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
   background-color: #3eaf03;
-  height: 23%;
-  position: absolute;
-  top: 12%;
-}
-.ordercontain .orderitms h1 {
-  position: absolute;
   color: white;
-  font-size: 5vw;
-  left: 30%;
-  top: 27%;
-  font-weight: 100;
+  font-size: 18px;
+  border-radius: 2px;
 }
-.ordercontain .shiphead h1 {
+h1.signnnnn {
+  text-align: center;
+  padding-top: 15px;
   color: white;
-  position: absolute;
-  top: 42%;
-  font-size: 4vh;
-  left: 28%;
-  font-family: system-ui;
-  font-weight: 400;
-}
-.ordercontain .shiphead .checksentence {
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 28%;
-  font-weight: 200;
-  font-family: system-ui;
-  word-spacing: 6px;
-}
-.orderdetails .ordereditems h3 {
-  color: #5bfc06;
-  position: absolute;
-  top: 57%;
-  left: 28%;
-  font-weight: 100;
-  font-family: system-ui;
-}
-.orderdetails .ordereditems2 h3 {
-  font-weight: 100;
-  left: 28%;
-  color: #5bfc06;
-  position: absolute;
-  top: 61%;
-  font-family: system-ui;
-}
-.ordercontain .orderdetails .line {
-  background-color: #5bfc06;
-  width: 60%;
-  height: 0.1%;
-  position: absolute;
-  top: 67%;
-  left: 28%;
-}
-.ordercontain .orderdetails .ordertotal h4 {
-  color: rgb(247, 245, 245);
-  font-size: 3vh;
-  position: absolute;
-  top: 70%;
-  left: 28%;
+  padding-top: 23%;
   font-family: system-ui;
   font-weight: 500;
 }
-h3.quantity {
-  font-weight: 100;
-  left: 75%;
-  color: #5bfc06;
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #e4e4e4;
+  word-spacing: 1px;
+}
+p.cybe {
+  top: 6%;
+  font-size: 3vw;
   position: absolute;
-  top: 57%;
+  left: 17%;
+  font-family: system-ui;
+  color: #3eaf03;
+}
+p.shopp {
+  position: absolute;
+  top: 9%;
+  left: 44%;
+  font-size: 2vw;
+  margin-top: 0px;
   font-family: system-ui;
 }
-h3.cost {
-  font-weight: 100;
-  left: 80%;
-  color: #5bfc06;
-  position: absolute;
-  top: 57%;
-  font-family: system-ui;
-}
-h3.quantity2 {
-  font-weight: 100;
-  left: 75%;
-  color: #5bfc06;
-  position: absolute;
-  top: 61%;
-  font-family: system-ui;
-}
-h3.cost2 {
-  font-weight: 100;
-  left: 80%;
-  color: #5bfc06;
-  position: absolute;
-  top: 61%;
-  font-family: system-ui;
-}
-h3.total {
-  color: rgb(247, 245, 245);
-  position: absolute;
-  top: 70%;
-  left: 75%;
-  font-family: system-ui;
-  font-weight: 500;
-}
-h3.costtotal {
-  color: rgb(247, 245, 245);
-  position: absolute;
-  top: 70%;
-  left: 80%;
-  font-family: system-ui;
-  font-weight: 500;
-}
-.toenterdetails h2.name {
-  color: rgb(247, 245, 245);
-  position: absolute;
-  top: 77%;
-  left: 28%;
-  font-family: system-ui;
-  font-weight: 400;
-}
-
-input.placeholder {
-  text-align: center;
-}
-.emailField {
-  top: 83%;
-  left: 28%;
-  width: 32%;
-  position: absolute;
-  border: none;
-  text-align: center;
-  border-radius: 4px;
-  height: 5%;
-}
-input.placeholder {
-  text-align: center;
-}
-.phonenumber {
-  top: 98%;
-  left: 28%;
-  width: 32%;
-  position: absolute;
-  border: none;
-  text-align: center;
-  border-radius: 4px;
-  height: 5%;
-}
-.phonenum h2.name {
-  color: rgb(247, 245, 245);
-  position: absolute;
-  top: 92%;
-  left: 28%;
-  font-family: system-ui;
-  font-weight: 400;
-}
-input.placeholder {
-  text-align: center;
-}
-.streetaddress {
-  top: 115%;
-  left: 28%;
-  width: 32%;
-  position: absolute;
-  border: none;
-  text-align: center;
-  border-radius: 4px;
-  height: 5%;
-}
-.address h2.name {
-  color: rgb(247, 245, 245);
-  position: absolute;
-  top: 108%;
-  left: 28%;
-  font-family: system-ui;
-  font-weight: 400;
-}
-.pin h2.name {
-  color: rgb(247, 245, 245);
-  position: absolute;
-  top: 124%;
-  left: 28%;
-  font-family: system-ui;
-  font-weight: 400;
-}
-input.placeholder {
-  text-align: center;
-}
-.pincode {
-  top: 130%;
-  left: 28%;
-  width: 32%;
-  position: absolute;
-  border: none;
-  text-align: center;
-  border-radius: 4px;
-  height: 5%;
-}
-input.placeholder {
-  text-align: center;
-}
-.unit {
-  top: 147%;
-  left: 28%;
-  width: 32%;
-  position: absolute;
-  border: none;
-  text-align: center;
-  border-radius: 4px;
-  height: 5%;
-}
-.aptsuite h2.name {
-  color: rgb(247, 245, 245);
-  position: absolute;
-  top: 140%;
-  left: 28%;
-  font-family: system-ui;
-  font-weight: 400;
-}
-input.placeholder {
-  text-align: center;
-}
-.citydetails {
-  top: 162%;
-  left: 28%;
-  width: 32%;
-  position: absolute;
-  border: none;
-  text-align: center;
-  border-radius: 4px;
-  height: 5%;
-}
-.city h2.name {
-  color: rgb(247, 245, 245);
-  position: absolute;
-  top: 156%;
-  left: 28%;
-  font-family: system-ui;
-  font-weight: 400;
-}
-input.placeholder {
-  text-align: center;
-}
-.statedetails {
-  top: 176%;
-  left: 28%;
-  width: 32%;
-  position: absolute;
-  border: none;
-  text-align: center;
-  border-radius: 4px;
-  height: 5%;
-}
-.state h2.name {
-  color: rgb(247, 245, 245);
-  position: absolute;
-  top: 170%;
-  left: 28%;
-  font-family: system-ui;
-  font-weight: 400;
-}
-.submitbutton {
-  background-color: rgb(62, 175, 33);
-  position: absolute;
-  top: 186%;
-  left: 28%;
-  width: 21%;
-  height: 11%;
-  border-radius: 4px;
+h2.cancelbtn {
   color: white;
-  font-size: 4vh;
-  border: none;
+  position: absolute;
+  left: 90%;
+  top: 3%;
+  font-family: system-ui;
+}
+a {
+  color: white;
+}
+.Cyber p {
+  left: 5%;
+  font-family: system-ui;
+  position: absolute;
+  font-size: 3vw;
+  top: 2%;
+  color: #49cb28;
+}
+p.shop {
+  color: #e4e4e4;
+  position: absolute;
+  left: 13%;
+  font-size: 2vw;
+  top: 4%;
 }
 @media screen and (max-width: 800px) {
-  .orderitms {
+  .navbar .cartpic img.cartt {
+    width: 10%;
+    position: absolute;
+    top: 2%;
+    left: 79%;
+    height: 6%;
+  }
+  .Cyber p {
+    left: 5%;
+    font-family: system-ui;
+    position: absolute;
+    font-size: 9vw;
+    top: 2%;
+    color: #49cb28;
+  }
+  p.shop {
+    color: #e4e4e4;
+    position: absolute;
+    left: 29%;
+    font-size: 4vw;
+    top: 5%;
+  }
+  .sign p.sig {
+    color: #e4e4e4;
+    position: absolute;
+    left: 59%;
+    top: 1%;
+    font-size: 3vh;
+    font-family: system-ui;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .anewtvexp .anewtv {
+    color: white;
+    position: absolute;
+    font-size: 6vh;
+    left: 18vw;
+    top: 19%;
+    font-size: 4vw;
+  }
+  .anewtvexp h1.exp {
+    left: 15%;
+    color: white;
+    top: 20%;
+    position: absolute;
+    top: 22%;
+    font-size: 4vw;
+  }
+  .anewtvexp .awa {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 18vw;
+    font-size: 4vw;
+  }
+  .sony h2 {
+    width: 12%;
+    position: absolute;
+    left: 47%;
+    top: 15%;
+    height: 26vh;
+    color: white;
+    font-size: 5vw;
+  }
+  img {
     width: 100%;
+    height: 20vh;
+    top: 75px;
+    left: 0%;
+    position: relative;
+    height: 35vh;
+  }
+  .bravo h2 {
+    position: absolute;
+    color: #e4e4e4;
+    left: 22%;
+    top: 25;
+    top: 29%;
+    font-size: 100;
+    font-size: 3vw;
+    font-weight: 100;
+  }
+  .bravo h3 {
+    color: #e4e4e4;
+    position: absolute;
+    font-size: 2vw;
+    font-weight: lighter;
+    top: 31%;
+    left: 24%;
+  }
+}
+.basiccontent {
+  background-color: #495050;
+}
+@media screen and (max-width: 800px) {
+  .login-box {
+    width: 76%;
+    height: 50%;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+    position: fixed;
+    top: 20%;
+    left: 13%;
+    background-color: #495050;
+  }
+
+  form {
+    width: 300px;
+    margin-left: 13%;
+    padding-top: 3%;
+  }
+  input {
+    width: 64%;
+    padding: 7px;
+    border: none;
+    border: 1 px solid gray;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 17px;
+    text-align: center;
+    font-size: 20px;
+  }
+  input[type="button"] {
+    width: 207px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
     background-color: #3eaf03;
-    height: 23%;
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+  }
+  h1.signnnnn {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    padding-top: 23%;
+    font-family: system-ui;
+    font-weight: 500;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #e4e4e4;
+    word-spacing: 1px;
+  }
+  p.cybe {
+    top: 6%;
+    font-size: 7vw;
+    position: absolute;
+    left: 17%;
+    font-family: system-ui;
+    color: #3eaf03;
+  }
+  p.shopp {
     position: absolute;
     top: 9%;
+    left: 41%;
+    font-size: 4vw;
+    margin-top: 0px;
+    font-family: system-ui;
   }
-  .ordercontain .orderitms h1 {
-    position: absolute;
-    color: white;
-    font-size: 9vw;
-    left: 16%;
-    top: 37%;
-    font-weight: 100;
-  }
-  .ordercontain .shiphead h1 {
+  h2.cancelbtn {
     color: white;
     position: absolute;
-    top: 42%;
-    font-size: 3vh;
-    left: 14%;
+    left: 90%;
+    top: 3%;
     font-family: system-ui;
-    font-weight: 400;
   }
-  .ordercontain .shiphead .checksentence {
+  a {
     color: white;
-    position: absolute;
-    top: 48%;
-    left: 14%;
-    font-weight: 200;
-    font-family: system-ui;
-    word-spacing: 0px;
-    font-size: 3vh;
   }
-  .orderdetails .ordereditems h3 {
-    color: #5bfc06;
-    position: absolute;
-    top: 58%;
-    left: 14%;
-    font-weight: 100;
-    font-family: system-ui;
-  }
-  .orderdetails .ordereditems2 h3 {
-    font-weight: 100;
-    left: 14%;
-    color: #5bfc06;
-    position: absolute;
-    top: 64%;
-    font-family: system-ui;
-  }
-  .ordercontain .orderdetails .line {
-    background-color: #5bfc06;
-    width: 85%;
-    height: 0.1%;
-    position: absolute;
-    top: 72%;
-    left: 14%;
-  }
-  .ordercontain .orderdetails .ordertotal h4 {
-    color: rgb(247, 245, 245);
-    font-size: 3vh;
-    position: absolute;
-    top: 74%;
-    left: 14%;
-    font-family: system-ui;
-    font-weight: 500;
-  }
-  h3.quantity {
-    font-weight: 100;
-    left: 77%;
-    color: #5bfc06;
-    position: absolute;
-    top: 57%;
-    font-family: system-ui;
-  }
-  h3.cost {
-    font-weight: 100;
-    left: 83%;
-    color: #5bfc06;
-    position: absolute;
-    top: 57%;
-    font-family: system-ui;
-  }
-  h3.quantity2 {
-    font-weight: 100;
-    left: 77%;
-    color: #5bfc06;
-    position: absolute;
-    top: 64%;
-    font-family: system-ui;
-  }
-  h3.cost2 {
-    font-weight: 100;
-    left: 83%;
-    color: #5bfc06;
-    position: absolute;
-    top: 64%;
-    font-family: system-ui;
-  }
-  h3.total {
-    color: rgb(247, 245, 245);
-    position: absolute;
-    top: 74%;
-    left: 76%;
-    font-family: system-ui;
-    font-weight: 500;
-  }
-  h3.costtotal {
-    color: rgb(247, 245, 245);
-    position: absolute;
-    top: 74%;
-    left: 81%;
-    font-family: system-ui;
-    font-weight: 500;
-    font-size: 5vw;
-  }
-  .toenterdetails h2.name {
-    color: rgb(247, 245, 245);
-    position: absolute;
-    top: 81%;
-    left: 14%;
-    font-family: system-ui;
-    font-weight: 400;
-    font-size: 5vw;
-  }
-
-  input.placeholder {
-    text-align: center;
-  }
-  .emailField {
-    top: 86%;
-    left: 14%;
-    width: 52%;
-    position: absolute;
-    border: none;
-    text-align: center;
-    border-radius: 4px;
-    height: 5%;
-  }
-  input.placeholder {
-    text-align: center;
-  }
-  .phonenumber {
-    top: 100%;
-    left: 14%;
-    width: 52%;
-    position: absolute;
-    border: none;
-    text-align: center;
-    border-radius: 4px;
-    height: 5%;
-  }
-  .phonenum h2.name {
-    color: rgb(247, 245, 245);
-    position: absolute;
-    top: 95%;
-    left: 14%;
-    font-family: system-ui;
-    font-weight: 400;
-    font-size: 5vw;
-  }
-  input.placeholder {
-    text-align: center;
-  }
-  .streetaddress {
-    top: 115%;
-    left: 14%;
-    width: 56%;
-    position: absolute;
-    border: none;
-    text-align: center;
-    border-radius: 4px;
-    height: 5%;
-  }
-  .address h2.name {
-    color: rgb(247, 245, 245);
-    position: absolute;
-    top: 110%;
-    left: 14%;
-    font-family: system-ui;
-    font-weight: 400;
-    font-size: 5vw;
-  }
-  .pin h2.name {
-    color: rgb(247, 245, 245);
-    position: absolute;
-    top: 126%;
-    left: 14%;
-    font-family: system-ui;
-    font-weight: 400;
-    font-size: 5vw;
-  }
-  input.placeholder {
-    text-align: center;
-  }
-  .pincode {
-    top: 132%;
-    left: 14%;
-    width: 52%;
-    position: absolute;
-    border: none;
-    text-align: center;
-    border-radius: 4px;
-    height: 5%;
-  }
-  input.placeholder {
-    text-align: center;
-  }
-  .unit {
-    top: 149%;
-    left: 14%;
-    width: 52%;
-    position: absolute;
-    border: none;
-    text-align: center;
-    border-radius: 4px;
-    height: 5%;
-  }
-  .aptsuite h2.name {
-    color: rgb(247, 245, 245);
-    position: absolute;
-    top: 143%;
-    left: 14%;
-    font-family: system-ui;
-    font-weight: 400;
-    font-size: 5vw;
-  }
-  input.placeholder {
-    text-align: center;
-  }
-  .citydetails {
-    top: 164%;
-    left: 14%;
-    width: 52%;
-    position: absolute;
-    border: none;
-    text-align: center;
-    border-radius: 4px;
-    height: 5%;
-  }
-  .city h2.name {
-    color: rgb(247, 245, 245);
-    position: absolute;
-    top: 159%;
-    left: 14%;
-    font-family: system-ui;
-    font-weight: 400;
-    font-size: 5vw;
-  }
-  input.placeholder {
-    text-align: center;
-  }
-  .statedetails {
-    top: 178%;
-    left: 14%;
-    width: 52%;
-    position: absolute;
-    border: none;
-    text-align: center;
-    border-radius: 4px;
-    height: 5%;
-  }
-  .state h2.name {
-    color: rgb(247, 245, 245);
-    position: absolute;
-    top: 173%;
-    left: 14%;
-    font-family: system-ui;
-    font-weight: 400;
-    font-size: 5vw;
-  }
-  .submitbutton {
-    background-color: rgb(62, 175, 33);
-    position: absolute;
-    top: 186%;
-    left: 21%;
-    width: 37%;
-    height: 7%;
-    border-radius: 4px;
-    color: white;
-    font-size: 3vh;
-    border: none;
-  }
-}
-/***** This is thank you page
-******/
-.orderitms .dismsg {
-  color: #e4e4e4;
-  position: absolute;
-  top: 37%;
-  left: 29%;
-  font-size: 3vw;
-  font-family: system-ui;
-  font-weight: 500;
-}
-img.cartt {
-  position: absolute;
-  width: 3%;
-  top: 2%;
-  height: 5%;
-  left: 86%;
-}
-.thankyoumsg h2.thankmsg {
-  position: absolute;
-  color: #e4e4e4;
-  top: 41%;
-  left: 27%;
-  width: 51%;
-  font-family: system-ui;
-  font-weight: 300;
-}
-.homebtn {
-  position: absolute;
-  color: #e4e4e4;
-  top: 53%;
-  left: 39%;
-  width: 20%;
-  height: 12%;
-  background-color: rgb(62, 175, 33);
-  font-size: 3vh;
-  border-radius: 5px;
-  border: none;
-}
-@media screen and (max-width: 800px) {
-  .orderitms .dismsg {
-    position: absolute;
-    color: #e4e4e4;
-    top: 47%;
-    left: 7%;
-    width: 92%;
-    font-family: system-ui;
-    font-weight: 500;
-    font-size: 6vw;
-  }
-  img.cartt {
-    position: absolute;
-    width: 6%;
-    top: 2%;
-    height: 5%;
-    left: 84%;
-  }
-  .thankyoumsg h2.thankmsg {
-    position: absolute;
-    color: #e4e4e4;
-    top: 40%;
+  .Cyber p {
     left: 5%;
-    width: 92%;
     font-family: system-ui;
-    font-weight: 300;
-    font-size: 5vw;
-  }
-  .homebtn {
     position: absolute;
+    font-size: 6vw;
+    top: 1%;
+    color: #49cb28;
+  }
+  p.shop {
     color: #e4e4e4;
-    top: 53%;
-    left: 25%;
-    width: 45%;
-    height: 10%;
-    background-color: rgb(62, 175, 33);
-    font-size: 3vh;
-    border-radius: 4px;
-    border: none;
+    position: absolute;
+    left: 21%;
+    font-size: 4vw;
+    top: 2%;
   }
 }
