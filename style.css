@@ -1,11 +1,26 @@
+/******************************
+COMMON
+********/
+
+
 * {
   margin: 0%;
   padding: 0;
 }
+/******
+BODY
+*******/
 
 body {
   background-color: #313636;
 }
+
+
+
+/*************
+ MAIN PAGE
+*************/
+
 
 img {
   width: 100%;
@@ -15,16 +30,6 @@ img {
   position: relative;
 }
 
-/*************
-STYLING FOR THE BACKGROUND IMAGE
-*************/
-
-/* img.anewtvexp {
-  width: 29%;
-  position: absolute;
-  top: 24%;
-  left: 14%;
-} */
 
 .anewtvexp .anewtv {
   color: white;
@@ -81,30 +86,8 @@ STYLING FOR THE BACKGROUND IMAGE
   left: 26%;
   font-family: roboto, "Helvetica Neue";
 }
-/* @media screen and (max-width: 400px) {
-  img.anewtvexp {
-    width: 29%;
-    height: 30vh;
-    left: 13%;
-    position: absolute;
-    top: 32%;
-  }
-  img.sony {
-    width: 10%;
-    position: absolute;
-    left: 47%;
-    top: 12%;
-    height: 27vh;
-  }
-  img {
-    width: 100%;
-    height: 20vh;
-    top: 75px;
-    left: 0%;
-    position: relative;
-  }
-} */
-@media only screen and (max-width: 800px) {
+
+@media all and (max-width: 900px) {
   .anewtvexp .anewtv {
     color: white;
     position: absolute;
@@ -165,6 +148,70 @@ STYLING FOR THE BACKGROUND IMAGE
   }
 }
 
+@media all and (min-width: 800px) and (max-width: 900px) {
+  .anewtvexp .anewtv {
+    color: white;
+    position: absolute;
+    font-size: 6vh;
+    left: 18vw;
+    top: 19%;
+    font-size: 4vw;
+  }
+  .anewtvexp .exp {
+    left: 16%;
+    color: white;
+    top: 20%;
+    position: absolute;
+    top: 22%;
+    font-size: 4vw;
+  }
+  .anewtvexp .awa {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 18vw;
+    font-size: 4vw;
+  }
+  .sony h2 {
+    width: 12%;
+    position: absolute;
+    left: 47%;
+    top: 15%;
+    height: 26vh;
+    color: white;
+    font-size: 5vw;
+  }
+  img {
+    width: 100%;
+    height: 20vh;
+    top: 75px;
+    left: 0%;
+    position: relative;
+    height: 35vh;
+  }
+  .bravo h2 {
+    position: absolute;
+    color: #e4e4e4;
+    left: 22%;
+    top: 25;
+    top: 29%;
+    font-size: 100;
+    font-size: 3vw;
+    font-weight: 100;
+  }
+  .bravo h3 {
+    color: #e4e4e4;
+    position: absolute;
+    font-size: 2vw;
+    font-weight: lighter;
+    top: 31%;
+    left: 24%;
+  }
+}
+/*******
+STYLING FOR LIST OF SUBIMAGES
+*******/
+
 /************
 STYLING FOR TV
 ************/
@@ -212,7 +259,7 @@ STYLING FOR TV
   color: white;
   border: none;
 }
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .tv {
     background-color: #313636;
   }
@@ -226,7 +273,7 @@ STYLING FOR TV
   }
   .subimages .tv h2 {
     color: white;
-    font-size: 4vw;
+    font-size: 3vh;
     position: absolute;
     top: 56vh;
     left: 29vh;
@@ -302,7 +349,7 @@ STYLING FOR THE FRIDGE
   border: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .subimages .phone img.mob {
     height: 20%;
     background-color: white;
@@ -393,7 +440,7 @@ STYLING FOR THE PHONE
   border: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .subimages .fridge img.refredige {
     height: 20%;
     background-color: white;
@@ -482,7 +529,7 @@ STYLING FOR OVEN
   color: white;
   border: none;
 }
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .subimages .microoven img.ove {
     height: 20%;
     background-color: white;
@@ -604,7 +651,7 @@ p.shop {
   border-radius: 6px;
   border: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .navbar .cartpic img.cartt {
     width: 10%;
     position: absolute;
@@ -632,8 +679,8 @@ p.shop {
     position: absolute;
     left: 61%;
     top: 3%;
-    font-size: 4vh;
-    font-family: system-ui;
+    font-size: 6vw;
+    font-family: roboto, "Helvetica Neue";
     color: #e4e4e4;
     text-decoration: none;
   }
@@ -668,7 +715,7 @@ p.shop {
   }
   .footer .total h1 {
     color: white;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
     font-size: 3vh;
     position: absolute;
     left: 19%;
@@ -688,6 +735,9 @@ p.shop {
     border: none;
   }
 }
+/*******
+STYLING FOR DOTS
+*******/
 .menu .dots {
   height: 12px;
   width: 12px;
@@ -732,7 +782,7 @@ p.shop {
   top: 84%;
   left: 50%;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .menu .dots {
     height: 6px;
     width: 6px;
@@ -779,7 +829,8 @@ p.shop {
   }
 }
 
-/***** cart page 
+/***** 
+CART PAGE 
 ********/
 
 .orderitms {
@@ -804,7 +855,7 @@ p.shop {
   top: 42%;
   font-size: 4vh;
   left: 28%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 400;
 }
 .ordercontain .shiphead .checksentence {
@@ -813,8 +864,8 @@ p.shop {
   top: 50%;
   left: 28%;
   font-weight: 200;
-  font-family: system-ui;
-  word-spacing: 6px;
+  font-family: roboto, "Helvetica Neue";
+  word-spacing: 5px;
 }
 .orderdetails .ordereditems h3 {
   color: #5bfc06;
@@ -822,7 +873,7 @@ p.shop {
   top: 57%;
   left: 28%;
   font-weight: 100;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
 }
 .orderdetails .ordereditems2 h3 {
   font-weight: 100;
@@ -830,7 +881,7 @@ p.shop {
   color: #5bfc06;
   position: absolute;
   top: 61%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
 }
 .ordercontain .orderdetails .line {
   background-color: #5bfc06;
@@ -846,7 +897,7 @@ p.shop {
   position: absolute;
   top: 70%;
   left: 28%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 500;
 }
 h3.quantity {
@@ -855,7 +906,7 @@ h3.quantity {
   color: #5bfc06;
   position: absolute;
   top: 57%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
 }
 h3.cost {
   font-weight: 100;
@@ -871,7 +922,7 @@ h3.quantity2 {
   color: #5bfc06;
   position: absolute;
   top: 61%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
 }
 h3.cost2 {
   font-weight: 100;
@@ -879,14 +930,14 @@ h3.cost2 {
   color: #5bfc06;
   position: absolute;
   top: 61%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
 }
 h3.total {
   color: rgb(247, 245, 245);
   position: absolute;
   top: 70%;
   left: 75%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 500;
 }
 h3.costtotal {
@@ -894,7 +945,7 @@ h3.costtotal {
   position: absolute;
   top: 70%;
   left: 80%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 500;
 }
 .toenterdetails h2.name {
@@ -902,7 +953,7 @@ h3.costtotal {
   position: absolute;
   top: 77%;
   left: 28%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 400;
 }
 
@@ -937,7 +988,7 @@ input.placeholder {
   position: absolute;
   top: 92%;
   left: 28%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 400;
 }
 input.placeholder {
@@ -958,7 +1009,7 @@ input.placeholder {
   position: absolute;
   top: 108%;
   left: 28%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 400;
 }
 .pin h2.name {
@@ -966,7 +1017,7 @@ input.placeholder {
   position: absolute;
   top: 124%;
   left: 28%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 400;
 }
 input.placeholder {
@@ -1000,7 +1051,7 @@ input.placeholder {
   position: absolute;
   top: 140%;
   left: 28%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 400;
 }
 input.placeholder {
@@ -1021,7 +1072,7 @@ input.placeholder {
   position: absolute;
   top: 156%;
   left: 28%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 400;
 }
 input.placeholder {
@@ -1042,7 +1093,7 @@ input.placeholder {
   position: absolute;
   top: 170%;
   left: 28%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 400;
 }
 .submitbutton {
@@ -1057,7 +1108,7 @@ input.placeholder {
   font-size: 4vh;
   border: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .orderitms {
     width: 100%;
     background-color: #3eaf03;
@@ -1072,58 +1123,62 @@ input.placeholder {
     left: 16%;
     top: 37%;
     font-weight: 100;
+    font-family: "Helvetica Neue";
   }
   .ordercontain .shiphead h1 {
     color: white;
     position: absolute;
     top: 42%;
     font-size: 3vh;
-    left: 14%;
-    font-family: system-ui;
+    left: 10%;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 400;
   }
   .ordercontain .shiphead .checksentence {
     color: white;
     position: absolute;
     top: 48%;
-    left: 14%;
+    left: 10%;
     font-weight: 200;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
     word-spacing: 0px;
-    font-size: 3vh;
+    font-size: 2vh;
   }
   .orderdetails .ordereditems h3 {
     color: #5bfc06;
     position: absolute;
     top: 58%;
-    left: 14%;
+    left: 10%;
     font-weight: 100;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
+    font-size: 2vh;
   }
   .orderdetails .ordereditems2 h3 {
     font-weight: 100;
-    left: 14%;
+    left: 10%;
     color: #5bfc06;
     position: absolute;
     top: 64%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
+    font-size: 2vh;
   }
   .ordercontain .orderdetails .line {
     background-color: #5bfc06;
-    width: 85%;
+    width: 87%;
     height: 0.1%;
     position: absolute;
     top: 72%;
-    left: 14%;
+    left: 10%;
   }
   .ordercontain .orderdetails .ordertotal h4 {
     color: rgb(247, 245, 245);
     font-size: 3vh;
     position: absolute;
     top: 74%;
-    left: 14%;
-    font-family: system-ui;
+    left: 10%;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 500;
+    font-size: 4vw;
   }
   h3.quantity {
     font-weight: 100;
@@ -1131,7 +1186,8 @@ input.placeholder {
     color: #5bfc06;
     position: absolute;
     top: 57%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
+    font-size: 2vh;
   }
   h3.cost {
     font-weight: 100;
@@ -1139,7 +1195,8 @@ input.placeholder {
     color: #5bfc06;
     position: absolute;
     top: 57%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
+    font-size: 2vh;
   }
   h3.quantity2 {
     font-weight: 100;
@@ -1147,7 +1204,8 @@ input.placeholder {
     color: #5bfc06;
     position: absolute;
     top: 64%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
+    font-size: 2vh;
   }
   h3.cost2 {
     font-weight: 100;
@@ -1155,31 +1213,33 @@ input.placeholder {
     color: #5bfc06;
     position: absolute;
     top: 64%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
+    font-size: 2vh;
   }
   h3.total {
     color: rgb(247, 245, 245);
     position: absolute;
     top: 74%;
     left: 76%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 500;
+    font-size: 4vw;
   }
   h3.costtotal {
     color: rgb(247, 245, 245);
     position: absolute;
     top: 74%;
     left: 81%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 500;
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .toenterdetails h2.name {
     color: rgb(247, 245, 245);
     position: absolute;
     top: 81%;
-    left: 14%;
-    font-family: system-ui;
+    left: 10%;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 400;
     font-size: 5vw;
   }
@@ -1189,8 +1249,8 @@ input.placeholder {
   }
   .emailField {
     top: 86%;
-    left: 14%;
-    width: 52%;
+    left: 10%;
+    width: 58%;
     position: absolute;
     border: none;
     text-align: center;
@@ -1202,8 +1262,8 @@ input.placeholder {
   }
   .phonenumber {
     top: 100%;
-    left: 14%;
-    width: 52%;
+    left: 10%;
+    width: 58%;
     position: absolute;
     border: none;
     text-align: center;
@@ -1214,8 +1274,8 @@ input.placeholder {
     color: rgb(247, 245, 245);
     position: absolute;
     top: 95%;
-    left: 14%;
-    font-family: system-ui;
+    left: 10%;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 400;
     font-size: 5vw;
   }
@@ -1224,8 +1284,8 @@ input.placeholder {
   }
   .streetaddress {
     top: 115%;
-    left: 14%;
-    width: 56%;
+    left: 10%;
+    width: 58%;
     position: absolute;
     border: none;
     text-align: center;
@@ -1236,17 +1296,17 @@ input.placeholder {
     color: rgb(247, 245, 245);
     position: absolute;
     top: 110%;
-    left: 14%;
-    font-family: system-ui;
+    left: 10%;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 400;
     font-size: 5vw;
   }
   .pin h2.name {
     color: rgb(247, 245, 245);
     position: absolute;
-    top: 126%;
-    left: 14%;
-    font-family: system-ui;
+    top: 125%;
+    left: 10%;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 400;
     font-size: 5vw;
   }
@@ -1254,9 +1314,9 @@ input.placeholder {
     text-align: center;
   }
   .pincode {
-    top: 132%;
-    left: 14%;
-    width: 52%;
+    top: 131%;
+    left: 10%;
+    width: 58%;
     position: absolute;
     border: none;
     text-align: center;
@@ -1267,9 +1327,9 @@ input.placeholder {
     text-align: center;
   }
   .unit {
-    top: 149%;
-    left: 14%;
-    width: 52%;
+    top: 147%;
+    left: 10%;
+    width: 58%;
     position: absolute;
     border: none;
     text-align: center;
@@ -1279,9 +1339,9 @@ input.placeholder {
   .aptsuite h2.name {
     color: rgb(247, 245, 245);
     position: absolute;
-    top: 143%;
-    left: 14%;
-    font-family: system-ui;
+    top: 141%;
+    left: 10%;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 400;
     font-size: 5vw;
   }
@@ -1289,9 +1349,9 @@ input.placeholder {
     text-align: center;
   }
   .citydetails {
-    top: 164%;
-    left: 14%;
-    width: 52%;
+    top: 161%;
+    left: 10%;
+    width: 58%;
     position: absolute;
     border: none;
     text-align: center;
@@ -1301,9 +1361,9 @@ input.placeholder {
   .city h2.name {
     color: rgb(247, 245, 245);
     position: absolute;
-    top: 159%;
-    left: 14%;
-    font-family: system-ui;
+    top: 156%;
+    left: 10%;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 400;
     font-size: 5vw;
   }
@@ -1311,9 +1371,9 @@ input.placeholder {
     text-align: center;
   }
   .statedetails {
-    top: 178%;
-    left: 14%;
-    width: 52%;
+    top: 176%;
+    left: 10%;
+    width: 58%;
     position: absolute;
     border: none;
     text-align: center;
@@ -1323,9 +1383,9 @@ input.placeholder {
   .state h2.name {
     color: rgb(247, 245, 245);
     position: absolute;
-    top: 173%;
-    left: 14%;
-    font-family: system-ui;
+    top: 171%;
+    left: 10%;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 400;
     font-size: 5vw;
   }
@@ -1342,7 +1402,8 @@ input.placeholder {
     border: none;
   }
 }
-/***** This is thank you page
+/***** 
+THANK YOU PAGE
 ******/
 .orderitms .dismsg {
   color: #e4e4e4;
@@ -1350,7 +1411,7 @@ input.placeholder {
   top: 37%;
   left: 29%;
   font-size: 3vw;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 500;
 }
 img.cartt {
@@ -1366,7 +1427,7 @@ img.cartt {
   top: 41%;
   left: 27%;
   width: 51%;
-  font-family: system-ui;
+  font-family: roboto, "Helvetica Neue";
   font-weight: 300;
 }
 .homebtn {
@@ -1381,14 +1442,14 @@ img.cartt {
   border-radius: 5px;
   border: none;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .orderitms .dismsg {
     position: absolute;
     color: #e4e4e4;
     top: 47%;
     left: 7%;
     width: 92%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 500;
     font-size: 6vw;
   }
@@ -1405,7 +1466,7 @@ img.cartt {
     top: 40%;
     left: 5%;
     width: 92%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 300;
     font-size: 5vw;
   }

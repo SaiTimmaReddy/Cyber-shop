@@ -1,19 +1,22 @@
+/*****
+COMMON
+*****/
+
+
 * {
   margin: 0%;
   padding: 0;
 }
 
+/********
+BODY
+********/
+
 body {
   background-color: #313636;
 }
 
-img {
-  width: 100%;
 
-  top: 75px;
-  left: 0%;
-  position: relative;
-}
 
 /*************
   STYLING FOR THE BACKGROUND IMAGE
@@ -25,6 +28,13 @@ img {
     top: 24%;
     left: 14%;
   } */
+  img {
+    width: 100%;
+  
+    top: 75px;
+    left: 0%;
+    position: relative;
+  }
 
 .anewtvexp .anewtv {
   color: white;
@@ -80,29 +90,7 @@ img {
   left: 26%;
   font-family: roboto, "Helvetica Neue";
 }
-/* @media screen and (max-width: 400px) {
-    img.anewtvexp {
-      width: 29%;
-      height: 30vh;
-      left: 13%;
-      position: absolute;
-      top: 32%;
-    }
-    img.sony {
-      width: 10%;
-      position: absolute;
-      left: 47%;
-      top: 12%;
-      height: 27vh;
-    }
-    img {
-      width: 100%;
-      height: 20vh;
-      top: 75px;
-      left: 0%;
-      position: relative;
-    }
-  } */
+
 @media only screen and (max-width: 800px) {
   .anewtvexp .anewtv {
     color: white;
@@ -198,9 +186,7 @@ img {
   top: 136vh;
   font-weight: 100;
 }
-/* .subimages .tv {
-    width: 100%;
-  } */
+*/
 .subimages .tv .btn {
   background-color: rgb(62, 175, 33);
   width: 6%;
@@ -676,6 +662,10 @@ p.shop {
     border: none;
   }
 }
+
+/********
+STYLING FOR THE DOTS
+********/
 .menu .dots {
   height: 12px;
   width: 12px;
@@ -767,10 +757,18 @@ p.shop {
   }
 }
 
+/********
+BACKGROUND BLUR
+*********/
+
 .trans {
   background-color: rgba(247, 245, 245);
   opacity: 0.3;
 }
+
+/***********
+SIGN UP BOX
+***********/
 
 .signup-box {
   width: 360px;
@@ -846,6 +844,7 @@ p {
   font-size: 15px;
   color: #e4e4e4;
   word-spacing: 1px;
+  font-family: roboto, "Helvetica Neue";
 }
 .para-2 {
   text-align: center;
@@ -915,7 +914,7 @@ h2.cancelbtn a {
     padding-top: 15px;
     color: white;
     padding-top: 23%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
     font-weight: 500;
   }
 
@@ -961,6 +960,7 @@ h2.cancelbtn a {
     font-size: 21px;
     color: #e4e4e4;
     word-spacing: 1px;
+    font-family: roboto, "Helvetica Neue";
   }
   .para-2 {
     text-align: center;
@@ -998,7 +998,7 @@ h2.cancelbtn a {
     position: absolute;
     left: 90%;
     top: 3%;
-    font-family: system-ui;
+    font-family: roboto, "Helvetica Neue";
     text-decoration: none;
   }
 }
